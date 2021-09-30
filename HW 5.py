@@ -11,11 +11,9 @@ Great your solution works! значит все ок!
 
 
 def unique(numbers):
-    """
-    Дна список чисел. Некоторые числа в нем могут повторяться.
-    Верните новый список чисел, который состоит из чисел numbers, но уже без повторений.
-    """
-    pass
+    b = set()
+    b.update(numbers)
+    return list(b)
 
 
 def test_unique():
