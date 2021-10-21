@@ -12,5 +12,5 @@ class Point:
 x = int(input("Print first dekart coordinate: "))
 y = int(input("Print second dekart coordinate: "))
 point = Point(x, y)
-print(f"Polar coordinate {Point.to_polar(point)}")
+print(f"Polar coordinate {point.to_polar()}")
 
