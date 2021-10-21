@@ -6,7 +6,7 @@ class Point:
         self.y = y
 
     @staticmethod
-    def to_polar(self):
+    def to_polar():
         return [math.atan2(y, x), math.sqrt(x ** 2 + y ** 2)]
 
 
