@@ -5,7 +5,7 @@ class Point:
         self.x = x
         self.y = y
         
-    def to_polar():
+    def to_polar(self):
         return [math.atan2(y, x), math.sqrt(x ** 2 + y ** 2)]
 
 
