@@ -13,7 +13,6 @@ class Circle(Figures):
         self.D = diameter
         self.R = diameter/2
 
-
     def perimeter_P(self):
         return 2 * self.pi * self.R
 
